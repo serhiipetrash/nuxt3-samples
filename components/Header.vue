@@ -12,8 +12,8 @@
       <NuxtLink to="/" class="font-bold uppercase">
         home
       </NuxtLink>
-      <NuxtLink to="/" class="font-bold uppercase">
-        item-1
+      <NuxtLink to="/bulma-index" class="font-bold uppercase">
+        bulma
       </NuxtLink>
       <NuxtLink to="/" class="font-bold uppercase">
         item-2
@@ -24,3 +24,9 @@
     </nav>
   </header>
 </template>
+
+<style>
+a {
+  color: white;
+}
+</style>
