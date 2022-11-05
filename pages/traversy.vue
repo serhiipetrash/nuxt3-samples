@@ -12,6 +12,7 @@ definePageMeta({
     <TwFeatures />
     <TwTestimonial />
     <TwSTA />
+    <TwFooter />
   </div>
 </template>
 

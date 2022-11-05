@@ -20,7 +20,7 @@
           <h5 class="text-lg font-bold">
             Anisha Li
           </h5>
-          <p class="text-sm text-blue-600">
+          <p class="text-sm text-gray-600">
             “Manage has supercharged our team’s workflow. The ability to
             maintain visibility on larger milestones at all times keeps
             everyone motivated.”
@@ -35,7 +35,7 @@
           <h5 class="text-lg font-bold">
             Ali Bravo
           </h5>
-          <p class="text-sm text-blue-600">
+          <p class="text-sm text-gray-600">
             “We have been able to cancel so many other subscriptions since
             using Manage. There is no more cross-channel confusion and
             everyone is much more focused.”
@@ -50,7 +50,7 @@
           <h5 class="text-lg font-bold">
             Richard Watts
           </h5>
-          <p class="text-sm text-blue-600">
+          <p class="text-sm text-gray-600">
             “Manage has supercharged our team’s workflow. The ability to
             maintain visibility on larger milestones at all times keeps
             everyone motivated.”
