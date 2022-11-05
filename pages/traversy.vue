@@ -1,4 +1,6 @@
 <script setup>
+import TmHero from '~~/components/TmHero.vue'
+
 definePageMeta({
   layout: 'traversylayout',
 })
@@ -6,7 +8,7 @@ definePageMeta({
 
 <template>
   <div>
-    <h1>Traversy Media</h1>
+    <TmHero />
   </div>
 </template>
 
