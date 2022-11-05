@@ -21,9 +21,14 @@ const { product } = defineProps(['product'])
         <p class="mb-7">
           {{ product.description }}
         </p>
-        <button class="btn flex items-center px-6 py-3 font-bold">
-          <span class=" mr-2" i-carbon-shopping-cart-plus />
+        <button class="btn111 flex items-center text-3xl  px-6 py-3 font-bold">
+          <span class="c-yellow  w-20 h-20 hover:opacity-60 mr-2" i-carbon-shopping-cart-plus />
           <span>Add to cart</span>
+        </button>
+
+        <button class="btn111 flex items-center px-6 py-3 font-bold">
+          <span class="i-twemoji-shopping-cart  bg-sky mr-2 text-3xl" />
+          <span>Test</span>
         </button>
       </div>
     </div>

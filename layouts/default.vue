@@ -17,6 +17,11 @@
             </NuxtLink>
           </li>
           <li>
+            <NuxtLink to="/traversy">
+              Traversy
+            </NuxtLink>
+          </li>
+          <li>
             <NuxtLink to="/products" class="btn">
               Merch
             </NuxtLink>
