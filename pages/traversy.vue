@@ -1,5 +1,5 @@
 <script setup>
-import TmHero from '~~/components/TmHero.vue'
+import TmHero from '~~/components/TwHero.vue'
 
 definePageMeta({
   layout: 'traversylayout',
@@ -8,7 +8,8 @@ definePageMeta({
 
 <template>
   <div>
-    <TmHero />
+    <TwHero />
+    <TwFeatures />
   </div>
 </template>
 
