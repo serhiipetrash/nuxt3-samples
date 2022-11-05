@@ -24,3 +24,16 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+#cta {
+  background-image: url('img/bg-simplify-section-desktop.svg');
+  background-repeat: no-repeat;
+}
+@media (max-width: 576px) {
+
+  #cta {
+    background-image: url('img/bg-simplify-section-mobile.svg');
+  }
+}
+</style>
