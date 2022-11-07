@@ -1,15 +1,15 @@
 <script setup>
 //  fetch the products
-const { data: products } = await useFetch('https://fakestoreapi.com/products')
+const { data: products } = await useFetch('https://fakestoreapi.com/products/category/jewelery')
 
 definePageMeta({
   layout: 'products',
 })
 
 useHead({
-  title: 'Nuxt Dojo | Merch',
+  title: 'jewelery',
   meta: [
-    { name: 'description', content: 'Nuxt 3 Merch' },
+    { name: 'description', content: 'jewelery' },
   ],
 })
 </script>

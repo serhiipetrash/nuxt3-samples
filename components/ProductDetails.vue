@@ -4,7 +4,7 @@ const { product } = defineProps(['product'])
 
 <template>
   <div class="card">
-    <div class="grid grid-cols-2 gap-10">
+    <div class="grid md:grid-cols-2 gap-5">
       <div class="p-7">
         <img :src="`${product.image}`" class="mx-auto my-7">
       </div>
@@ -21,14 +21,8 @@ const { product } = defineProps(['product'])
         <p class="mb-7">
           {{ product.description }}
         </p>
-        <button class="btn111 flex items-center text-3xl  px-6 py-3 font-bold">
-          <span class="c-yellow  w-20 h-20 hover:opacity-60 mr-2" i-carbon-shopping-cart-plus />
+        <button class="btn flex items-center text-xl  px-4 py-2 font-bold">
           <span>Add to cart</span>
-        </button>
-
-        <button class="btn111 flex items-center px-6 py-3 font-bold">
-          <span class="i-twemoji-shopping-cart  bg-sky mr-2 text-3xl" />
-          <span>Test</span>
         </button>
       </div>
     </div>
