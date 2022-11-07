@@ -23,6 +23,7 @@ const handlerClick = () => {
         </div>
         <!-- Menu items -->
         <div class="hidden md:flex space-x-4">
+          <DarkToggle />
           <NuxtLink to="/" class="hover:text-red-500">
             Pricing
           </NuxtLink>
@@ -58,6 +59,11 @@ const handlerClick = () => {
           <span class="hamburger-middle" />
           <span class="hamburger-bottom" />
         </button>
+        <!-- icon-carbon -->
+        <!-- <div class="block md:hidden focus:outline-none" @click="handlerClick">
+          <div class="icon-btn" :class="{ 'i-carbon-close-outline': isOpen }" />
+          <div class="icon-btn" :class="{ 'i-carbon-menu': !isOpen }" />
+        </div> -->
       </div>
       <!-- Mobile Menu -->
       <div class="md:hidden">
